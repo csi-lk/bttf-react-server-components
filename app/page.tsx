@@ -47,13 +47,15 @@ export default function Home() {
           </Link>
         </li>
         <li>
-          <Link href="setup/1-static-content">So many TLAs...</Link>
+          <Link href="setup/2-so-many-tlas">So many TLAs...</Link>
         </li>
         <li>
-          <Link href="setup/1-static-content">Why are you using RSCs?</Link>
+          <Link href="setup/3-why-are-you-using-rscs">
+            Why are you using RSCs?
+          </Link>
         </li>
         <li>
-          <Link href="setup/1-static-content">Let&apos;s go back in time</Link>
+          <Link href="setup/4-go-back-in-time">Let&apos;s go back in time</Link>
         </li>
       </ol>
       <h2>Diving into RSCs</h2>
