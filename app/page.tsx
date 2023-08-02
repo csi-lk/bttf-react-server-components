@@ -29,9 +29,24 @@ export default function Home() {
           MelbJS Aug / 2023
         </a>
       </p>
-      <h2>The Slides:</h2>
+      <p>
+        This talk has been put together as a NextJS backed site so I can show
+        how the &apos;slides&apos; are being rendered while talking about
+        them...
+      </p>
+      <h2>The Intro</h2>
       <ol>
-        <li></li>
+        <li>What are &quot;React Server Components&quot; (RSC) anyway?</li>
+        <li>So many TLAs...</li>
+        <li>Why are you using RSCs?</li>
+        <li>Let&apos;s go back in time</li>
+      </ol>
+      <h2>Diving into RSCs</h2>
+      <ol>
+        <li>Static Content</li>
+        <li>Virtual DOM</li>
+        <li>Virtual DOM Reconciliation</li>
+        <li>Server components as Children</li>
       </ol>
     </main>
   )
