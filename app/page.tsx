@@ -77,10 +77,17 @@ export default function Home() {
             Virtual DOM Reconciliation
           </Link>
         </li>
+      </ol>
+      <h2>Finishing up</h2>
+      <ol>
         <li>
-          <Link href="diving-in/4-server-components-as-children">
-            Server components as Children
-          </Link>
+          <Link href="finishing-up/1-further-topics">Further Topics</Link>
+        </li>
+        <li>
+          <Link href="finishing-up/2-questions">Questions</Link>
+        </li>
+        <li>
+          <Link href="finishing-up/3-resources">Resources</Link>
         </li>
       </ol>
     </main>

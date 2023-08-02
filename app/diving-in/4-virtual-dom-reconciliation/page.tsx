@@ -36,7 +36,7 @@ const VirtualDomReconciliation = async () => {
         alt="React server components generate HTML and Virtual DOM for Reconciliation"
         width="1000"
       />
-      <Footer nextSlide="/diving-in/4-server-components-as-children" />
+      <Footer nextSlide="/finishing-up/1-further-topics" />
     </>
   )
 }
