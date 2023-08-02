@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 import styles from "./page.module.css"
 
 export default function Home() {
@@ -43,7 +44,9 @@ export default function Home() {
       </ol>
       <h2>Diving into RSCs</h2>
       <ol>
-        <li>Static Content</li>
+        <li>
+          <Link href="diving-in/1-static-content">Static Content</Link>
+        </li>
         <li>Virtual DOM</li>
         <li>Virtual DOM Reconciliation</li>
         <li>Server components as Children</li>
