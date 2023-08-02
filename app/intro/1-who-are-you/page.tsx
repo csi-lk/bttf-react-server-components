@@ -42,7 +42,7 @@ const WhoAreYou = async () => {
             </a>
           </li>
           <li>
-            <strike>Twitter</strike>{" "}
+            <del>Twitter</del>{" "}
             <a
               href="https://twitter.com/csi_lk"
               target="_blank"

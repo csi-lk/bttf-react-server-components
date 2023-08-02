@@ -28,7 +28,7 @@ const VirtualDom = async () => {
         alt="React server components generate HTML and Virtual DOM"
         width="800"
       />
-      <Footer nextSlide="/diving-in/3-virtual-dom-reconciliation" />
+      <Footer nextSlide="/diving-in/3-client-components" />
     </>
   )
 }

@@ -4,6 +4,11 @@ import styles from "./footer.module.css"
 
 export const Footer = ({ nextSlide }: { nextSlide: string }) => (
   <div className={styles.footer}>
-    <Link href="/">Home</Link> | <Link href={nextSlide}>Next Slide</Link>
+    <span
+      dangerouslySetInnerHTML={{
+        __html: `<a href="#" onClick="this.href='/view-source'+location.pathname" class="view-source" target="_blank">View Source</a>`,
+      }}
+    />{" "}
+    |<Link href="/">Home</Link> | <Link href={nextSlide}>Next Slide</Link>
   </div>
 )

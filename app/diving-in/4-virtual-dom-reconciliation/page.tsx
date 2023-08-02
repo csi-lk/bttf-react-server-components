@@ -2,8 +2,8 @@ import Image from "next/image"
 
 import { Footer } from "@/components"
 
-import Diagram from "./virtual-dom-reconciliation.svg"
 import { ClientComponent } from "./client-component"
+import Diagram from "./virtual-dom-reconciliation.svg"
 
 const VirtualDomReconciliation = async () => {
   return (
@@ -12,7 +12,10 @@ const VirtualDomReconciliation = async () => {
         <h1>Diving into RSCs: Virtual DOM Reconciliation</h1>
         <ClientComponent />
         <ul>
-          <li>On page load reconcile Virtual DOM / returned static DOM</li>
+          <li>
+            On page load reconcile Virtual DOM / returned static DOM{" "}
+            <sup>old</sup>
+          </li>
           <li>If they don&apos;t match throw error</li>
           <ul>
             <li>

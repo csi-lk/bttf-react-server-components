@@ -70,7 +70,10 @@ export default function Home() {
           <Link href="diving-in/2-virtual-dom">Virtual DOM</Link>
         </li>
         <li>
-          <Link href="diving-in/3-virtual-dom-reconciliation">
+          <Link href="diving-in/3-client-components">Client Components</Link>
+        </li>
+        <li>
+          <Link href="diving-in/4-virtual-dom-reconciliation">
             Virtual DOM Reconciliation
           </Link>
         </li>
