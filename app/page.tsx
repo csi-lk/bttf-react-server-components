@@ -47,7 +47,9 @@ export default function Home() {
         <li>
           <Link href="diving-in/1-static-content">Static Content</Link>
         </li>
-        <li>Virtual DOM</li>
+        <li>
+          <Link href="diving-in/2-virtual-dom">Virtual DOM</Link>
+        </li>
         <li>Virtual DOM Reconciliation</li>
         <li>Server components as Children</li>
       </ol>
