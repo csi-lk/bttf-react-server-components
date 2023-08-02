@@ -26,6 +26,10 @@ export default function Home() {
         for{" "}
         <a href="https://melbjs.com/" target="_blank">
           MelbJS Aug / 2023
+        </a>{" "}
+        available on{" "}
+        <a href="https://rsc.csi.lk" target="_blank">
+          https://rsc.csi.lk
         </a>
       </p>
       <p>

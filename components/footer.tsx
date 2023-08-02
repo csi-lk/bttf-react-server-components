@@ -9,6 +9,6 @@ export const Footer = ({ nextSlide }: { nextSlide: string }) => (
         __html: `<a href="#" onClick="this.href='/view-source'+location.pathname" class="view-source" target="_blank">View Source</a>`,
       }}
     />{" "}
-    |<Link href="/">Home</Link> | <Link href={nextSlide}>Next Slide</Link>
+    | <Link href="/">Home</Link> | <Link href={nextSlide}>Next Slide</Link>
   </div>
 )
