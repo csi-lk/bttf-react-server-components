@@ -12,7 +12,9 @@ const StaticContent = async () => {
         <ul>
           <li>This page is generated server-side using RSC</li>
           <li>React components run on server</li>
-          <li>HTML output sent over the wire</li>
+          <li>
+            HTML output sent over the wire <sup>old</sup>
+          </li>
           <li>Let&apos;s have a look at the source...</li>
         </ul>
       </main>

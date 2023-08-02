@@ -16,7 +16,7 @@ const WhyAreYouUsingRSC = async () => {
           <li>Speed 🏃💨</li>
         </ul>
       </main>
-      <Footer nextSlide="setup/4-go-back-in-time" />
+      <Footer nextSlide="/setup/4-go-back-in-time" />
     </>
   )
 }

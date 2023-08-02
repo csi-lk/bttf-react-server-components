@@ -12,7 +12,9 @@ const VirtualDom = async () => {
         <ul>
           <li>Script tags that contain an encoded form of this content</li>
           <li>React&apos;s new line-based internal data streaming format</li>
-          <li>Compact string representation of the virtual DOM</li>
+          <li>
+            Compact string representation of the virtual DOM <sup>new</sup>
+          </li>
           <li>
             Lets have a look in the{" "}
             <a href="https://rsc-parser.vercel.app/" target="_blank">

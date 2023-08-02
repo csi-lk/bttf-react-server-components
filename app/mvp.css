@@ -254,6 +254,7 @@ pre {
   margin: 1rem 0;
   max-width: var(--width-card-wide);
   padding: 1rem 0;
+  font-size: 20px;
 }
 
 pre code,
@@ -272,7 +273,7 @@ sup {
   background-color: var(--color-secondary);
   border-radius: var(--border-radius);
   color: var(--color-bg);
-  font-size: xx-small;
+  font-size: small;
   font-weight: bold;
   margin: 0.2rem;
   padding: 0.2rem 0.3rem;
