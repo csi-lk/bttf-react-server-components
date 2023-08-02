@@ -50,8 +50,16 @@ export default function Home() {
         <li>
           <Link href="diving-in/2-virtual-dom">Virtual DOM</Link>
         </li>
-        <li>Virtual DOM Reconciliation</li>
-        <li>Server components as Children</li>
+        <li>
+          <Link href="diving-in/3-virtual-dom-reconciliation">
+            Virtual DOM Reconciliation
+          </Link>
+        </li>
+        <li>
+          <Link href="diving-in/4-server-components-as-children">
+            Server components as Children
+          </Link>
+        </li>
       </ol>
     </main>
   )

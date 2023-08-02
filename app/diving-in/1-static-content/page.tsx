@@ -12,7 +12,7 @@ const StaticContent = async () => {
           <li>Let&apos;s have a look at the source...</li>
         </ul>
       </main>
-      <Footer nextSlide="2-virtual-dom" />
+      <Footer nextSlide="/diving-in/2-virtual-dom" />
     </>
   )
 }

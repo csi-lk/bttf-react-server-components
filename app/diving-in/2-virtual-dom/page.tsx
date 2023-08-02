@@ -17,7 +17,7 @@ const VirtualDom = async () => {
           </li>
         </ul>
       </main>
-      <Footer nextSlide="2-virtual-dom" />
+      <Footer nextSlide="/diving-in/3-virtual-dom-reconciliation" />
     </>
   )
 }
