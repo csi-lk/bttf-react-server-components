@@ -1,4 +1,8 @@
+import Image from "next/image"
+
 import { Footer } from "@/components"
+
+import Diagram from "./virtual-dom-reconciliation.svg"
 import { ClientComponent } from "./client-component"
 
 const VirtualDomReconciliation = async () => {
@@ -24,6 +28,11 @@ const VirtualDomReconciliation = async () => {
           </ul>
         </ul>
       </main>
+      <Image
+        src={Diagram}
+        alt="React server components generate HTML and Virtual DOM for Reconciliation"
+        width="1000"
+      />
       <Footer nextSlide="/diving-in/4-server-components-as-children" />
     </>
   )

@@ -1,4 +1,8 @@
+import Image from "next/image"
+
 import { Footer } from "@/components"
+
+import Diagram from "./virtual-dom.svg"
 
 const VirtualDom = async () => {
   return (
@@ -17,6 +21,11 @@ const VirtualDom = async () => {
           </li>
         </ul>
       </main>
+      <Image
+        src={Diagram}
+        alt="React server components generate HTML and Virtual DOM"
+        width="800"
+      />
       <Footer nextSlide="/diving-in/3-virtual-dom-reconciliation" />
     </>
   )
