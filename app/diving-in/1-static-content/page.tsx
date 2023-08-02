@@ -1,4 +1,6 @@
 import { Footer } from "@/components"
+import Image from "next/image"
+import Diagram from "./static-content.svg"
 
 const StaticContent = async () => {
   return (
@@ -12,6 +14,11 @@ const StaticContent = async () => {
           <li>Let&apos;s have a look at the source...</li>
         </ul>
       </main>
+      <Image
+        src={Diagram}
+        alt="React server components generate HTML"
+        width="800"
+      />
       <Footer nextSlide="/diving-in/2-virtual-dom" />
     </>
   )

@@ -5,14 +5,12 @@ import styles from "./page.module.css"
 export default function Home() {
   return (
     <main>
-      <div className={styles.image}>
-        <Image
-          src="./delorean.svg"
-          alt="Styled outline drawing of a delorean from the Back To The Future movie"
-          width="236"
-          height="150"
-        />
-      </div>
+      <Image
+        src="./delorean.svg"
+        alt="Styled outline drawing of a delorean from the Back To The Future movie"
+        width="300"
+        height="200"
+      />
       <h1>
         Back to the Future: What&apos;s New and Old About Server Components
       </h1>

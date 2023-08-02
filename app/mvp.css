@@ -62,10 +62,15 @@ body {
   background: var(--color-bg);
   color: var(--color-text);
   font-family: var(--font-family);
+  font-size: 28px;
   line-height: var(--line-height);
   margin: 0;
   overflow-x: hidden;
   padding: 0;
+}
+
+img {
+  width: 100%;
 }
 
 footer,
