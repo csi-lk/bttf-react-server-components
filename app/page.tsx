@@ -20,7 +20,7 @@ export default function Home() {
           Callum Silcock
         </a>
         , Principal Engineer at{" "}
-        <a href="https://plus.anz" target="_blank">
+        <a href="https://www.anz.com.au/plus/" target="_blank">
           ANZx
         </a>{" "}
         for{" "}
@@ -38,6 +38,9 @@ export default function Home() {
         <li>
           <Link href="intro/1-who-are-you">Who are you?</Link>
         </li>
+        <li>
+          <Link href="intro/2-play-along-at-home">Play along at home</Link>
+        </li>
       </ol>
       <h2>Setup</h2>
       <ol>
@@ -50,7 +53,7 @@ export default function Home() {
           <Link href="setup/2-so-many-tlas">So many TLAs...</Link>
         </li>
         <li>
-          <Link href="setup/3-why-are-you-using-rscs">
+          <Link href="setup/3-why-are-you-using-rsc">
             Why are you using RSCs?
           </Link>
         </li>

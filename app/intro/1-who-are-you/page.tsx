@@ -19,7 +19,7 @@ const WhoAreYou = async () => {
           Callum Silcock
         </a>
         , Principal Engineer at{" "}
-        <a href="https://plus.anz" target="_blank">
+        <a href="https://www.anz.com.au/plus/" target="_blank">
           ANZx
         </a>
         <ul>
@@ -54,7 +54,7 @@ const WhoAreYou = async () => {
         </ul>
         <blockquote>Welcome to another CodingWithCallum™️ Talk</blockquote>
       </main>
-      <Footer nextSlide="/setup/1-what-are-rsc" />
+      <Footer nextSlide="/intro/2-play-along-at-home" />
     </>
   )
 }
