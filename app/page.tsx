@@ -21,7 +21,7 @@ export default function Home() {
         </a>
         , Principal Engineer at{" "}
         <a href="https://plus.anz" target="_blank">
-          ANZ
+          ANZx
         </a>{" "}
         for{" "}
         <a href="https://melbjs.com/" target="_blank">
@@ -33,12 +33,28 @@ export default function Home() {
         how the &apos;slides&apos; are being rendered while talking about
         them...
       </p>
-      <h2>The Intro</h2>
+      <h2>Intro</h2>
       <ol>
-        <li>What are &quot;React Server Components&quot; (RSC) anyway?</li>
-        <li>So many TLAs...</li>
-        <li>Why are you using RSCs?</li>
-        <li>Let&apos;s go back in time</li>
+        <li>
+          <Link href="intro/1-who-are-you">Who are you?</Link>
+        </li>
+      </ol>
+      <h2>Setup</h2>
+      <ol>
+        <li>
+          <Link href="setup/1-what-are-rsc">
+            What are &quot;React Server Components&quot; (RSC) anyway?
+          </Link>
+        </li>
+        <li>
+          <Link href="setup/1-static-content">So many TLAs...</Link>
+        </li>
+        <li>
+          <Link href="setup/1-static-content">Why are you using RSCs?</Link>
+        </li>
+        <li>
+          <Link href="setup/1-static-content">Let&apos;s go back in time</Link>
+        </li>
       </ol>
       <h2>Diving into RSCs</h2>
       <ol>

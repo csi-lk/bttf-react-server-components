@@ -1,6 +1,6 @@
 # Back to the Future: What’s New and Old About Server Components
 
-A talk about React Server components by [Callum Silcock](https://csi.lk), Principal Engineer at [ANZ](https://plus.anz) for [MelbJS Aug / 2023](https://melbjs.com/)
+A talk about React Server components by [Callum Silcock](https://csi.lk), Principal Engineer at [ANZx](https://plus.anz) for [MelbJS Aug / 2023](https://melbjs.com/)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
