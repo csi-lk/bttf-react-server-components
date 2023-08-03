@@ -41,16 +41,6 @@ const WhoAreYou = async () => {
               LinkedIn - callumsilcock
             </a>
           </li>
-          <li>
-            <del>Twitter</del>{" "}
-            <a
-              href="https://twitter.com/csi_lk"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              𝕏 - csi_lk
-            </a>
-          </li>
         </ul>
         <blockquote>Welcome to another CodingWithCallum™️ Talk</blockquote>
       </main>
