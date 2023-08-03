@@ -9,8 +9,8 @@ const FurtherTopics = async () => {
         this is a good stopping point for a 30min talk
         <ul>
           <li>Disabling SSR for Client Components</li>
-          <li>Server components in Client Components</li>
           <li>Client Components in Server Components</li>
+          <li>Server actions</li>
           <li>
             <code>async</code>!?
           </li>
