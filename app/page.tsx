@@ -81,6 +81,11 @@ export default function Home() {
             Virtual DOM Reconciliation
           </Link>
         </li>
+        <li>
+          <Link href="diving-in/5-server-components-in-client">
+            Server Component in Client
+          </Link>
+        </li>
       </ol>
       <h2>Finishing up</h2>
       <ol>
